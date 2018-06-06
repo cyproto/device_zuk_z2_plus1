@@ -26,6 +26,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_ARCORE := true
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/carbon/config/common.mk)
+$(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := carbon_z2_plus
